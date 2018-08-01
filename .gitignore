@@ -1,0 +1,16 @@
+target/
+.classpath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+modules.xml
+encodings.xml
+dataSources.xml
+workspace.xml
+dataSources.local.xml
