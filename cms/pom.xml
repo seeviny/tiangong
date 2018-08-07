@@ -10,6 +10,7 @@
   <modules>
     <module>cms-service</module>
     <module>cms-service-eureka</module>
+    <module>cms-service-zuul</module>
   </modules>
   <packaging>pom</packaging>
 

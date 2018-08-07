@@ -9,15 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cms-service</artifactId>
+    <artifactId>cms-service-zuul</artifactId>
     <packaging>war</packaging>
 
-    <name>cms-service Maven Webapp</name>
+    <name>cms-service-zuul</name>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <version>1.4.5.RELEASE</version>
         </dependency>
     </dependencies>
 </project>
