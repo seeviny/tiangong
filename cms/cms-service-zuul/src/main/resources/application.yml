@@ -6,13 +6,17 @@ server:
   eureka-server: localhost
   eureka-auth-name: admin
   eureka-auth-pwd: 123
-zuul:
-  routes:
-    api-a.path: /api/**
-    api-a.serviceId: cms-service
 eureka:
   client:
     service-url:
       defaultZone: http://${server.eureka-auth-name}:${server.eureka-auth-pwd}@${server.eureka-server}:8761/eureka
   instance:
     hostname: ${spring.application.name}
+zuul:
+  routes:
+    api:
+      path: /api/**
+      serviceId: cms-service
+    api_a:
+      path: /api_a/**
+      url: http://localhost:8081/
