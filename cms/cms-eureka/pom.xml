@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cms-service-eureka</artifactId>
+    <artifactId>cms-eureka</artifactId>
     <packaging>jar</packaging>
 
     <name>cms-service-eureka</name>

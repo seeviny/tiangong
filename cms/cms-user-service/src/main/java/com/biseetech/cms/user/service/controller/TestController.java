@@ -1,4 +1,4 @@
-package com.biseetech.cms.controller;
+package com.biseetech.cms.user.service.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +12,6 @@ public class TestController {
 
     @RequestMapping("/status")
     public String status() {
-        return "cms-service started!";
+        return "cms-user-service started!";
     }
 }

@@ -16,7 +16,7 @@ zuul:
   routes:
     api:
       path: /api/**
-      serviceId: cms-service
+      serviceId: cms-user-service
     api_a:
       path: /api_a/**
       url: http://localhost:8081/
