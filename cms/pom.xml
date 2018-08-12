@@ -8,12 +8,12 @@
   <artifactId>cms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modules>
-    <module>cms-user-service</module>
     <module>cms-eureka</module>
     <module>cms-service-zuul</module>
-    <module>cms-article-service</module>
     <module>cms-web</module>
-    <module>cms-user-service-api</module>
+    <module>cms-common</module>
+    <module>cms-user</module>
+    <module>cms-article</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cms-user-service
+  profiles:
+    include: eureka
+server:
+  name: localhost
+  port: 8081

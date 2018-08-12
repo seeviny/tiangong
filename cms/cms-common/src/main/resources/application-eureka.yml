@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka-info.user}:${eureka-info.pwd}@${eureka-info.server}:${eureka-info.port}/eureka
+  instance:
+    hostname: ${spring.application.name}
+    health-check-url-path: http://${server.name}:${server.port}/checkhealth
+    status-page-url-path: http://${server.name}:${server.port}/status
+    prefer-ip-address: true
+eureka-info:
+  server: localhost
+  port: 8761
+  user: admin
+  pwd: 123
